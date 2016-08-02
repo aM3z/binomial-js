@@ -1,0 +1,29 @@
+{
+  "name": "binomialpmf",
+  "version": "1.0.0",
+  "description": "This program is meant to help students practice computing the probability mass function for a binomial distribution.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc src/*.ts --module commonjs",
+    "pretest": "tsc test/*.spec.ts --module commonjs",
+    "test": "mocha"
+  },
+  "keywords": [
+    "pmf",
+    "probability",
+    "probability",
+    "mass",
+    "function",
+    "binomial",
+    "binomial",
+    "distribution",
+    "probability",
+    "distribution"
+  ],
+  "author": "Miguel Amezola",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
