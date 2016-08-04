@@ -1,5 +1,5 @@
 {
-  "name": "binomialpmf",
+  "name": "binomial-js",
   "version": "1.0.0",
   "description": "This program is meant to help students practice computing the probability mass function for a binomial distribution.",
   "main": "index.js",
