@@ -12,7 +12,7 @@ describe('BinomialPMF', () => {
     let p: number = 0.3;
     let pmf:BinomialPMF = new BinomialPMF(r, n, p);
 
-    expect(pmf.toString()).to.equal('P(r = ' + r + ' | ' + n + ', ' + p + ')');
+    expect(pmf.toString()).to.equal('P(R = ' + r + ' | ' + n + ', ' + p + ')');
 
     // r and n must be non-negative
 
@@ -76,7 +76,7 @@ describe('BinomialPMF', () => {
     let p: number = 0.8;
     let pmf:BinomialPMF = new BinomialPMF(r, n, p);
 
-    expect(pmf.toString()).to.equal('P(r = ' + r + ' | ' + n + ', ' + p + ')');
+    expect(pmf.toString()).to.equal('P(R = ' + r + ' | ' + n + ', ' + p + ')');
   });
 
 });

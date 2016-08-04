@@ -10,7 +10,7 @@ describe('BinomialPMF', function () {
         var n = 10;
         var p = 0.3;
         var pmf = new BinomialPMF_1.BinomialPMF(r, n, p);
-        chai_1.expect(pmf.toString()).to.equal('P(r = ' + r + ' | ' + n + ', ' + p + ')');
+        chai_1.expect(pmf.toString()).to.equal('P(R = ' + r + ' | ' + n + ', ' + p + ')');
         // r and n must be non-negative
         chai_2.assert.throw(function () {
             new BinomialPMF_1.BinomialPMF(-2, 10, 0.2);
@@ -56,6 +56,6 @@ describe('BinomialPMF', function () {
         var n = 20;
         var p = 0.8;
         var pmf = new BinomialPMF_1.BinomialPMF(r, n, p);
-        chai_1.expect(pmf.toString()).to.equal('P(r = ' + r + ' | ' + n + ', ' + p + ')');
+        chai_1.expect(pmf.toString()).to.equal('P(R = ' + r + ' | ' + n + ', ' + p + ')');
     });
 });

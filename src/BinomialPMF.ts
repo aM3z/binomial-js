@@ -57,7 +57,7 @@ export class BinomialPMF {
    * @return {string} The string representation of this object.
    */
   public toString(): string {
-    return 'P(r = ' + this._r + ' | ' + this._n + ', ' + this._p + ')';
+    return 'P(R = ' + this._r + ' | ' + this._n + ', ' + this._p + ')';
   }
 
   // getters
